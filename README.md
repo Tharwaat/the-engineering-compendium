@@ -7,8 +7,8 @@
 ![Papers](https://img.shields.io/badge/papers-14-orange)
 ![Articles](https://img.shields.io/badge/articles-644-informational)
 ![Videos](https://img.shields.io/badge/videos-19-red)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tharwaat/the-engineering-compendium.git/pulls)
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=social)](https://github.com/Tharwaat/the-engineering-compendium.git)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tharwaat/the-engineering-compendium/pulls)
+[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=social)](https://github.com/Tharwaat/the-engineering-compendium)
 
 ## About
 
