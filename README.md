@@ -2,10 +2,10 @@
 
 > A curated, community-driven collection of high-quality resources for software engineers — articles, open-source repositories, research papers, books, and courses spanning the full spectrum of modern software engineering.
 
-![Resources](https://img.shields.io/badge/resources-770-blue)
-![Repos](https://img.shields.io/badge/repositories-72-green)
+![Resources](https://img.shields.io/badge/resources-746-blue)
+![Repos](https://img.shields.io/badge/repositories-69-green)
 ![Papers](https://img.shields.io/badge/papers-14-orange)
-![Articles](https://img.shields.io/badge/articles-651-informational)
+![Articles](https://img.shields.io/badge/articles-644-informational)
 ![Videos](https://img.shields.io/badge/videos-19-red)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tharwaat/the-engineering-compendium.git/pulls)
 [![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=social)](https://github.com/Tharwaat/the-engineering-compendium.git)
@@ -21,32 +21,32 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 
 ## Table of Contents
 
-- [System Design & Architecture](#system-design-architecture) `59`
-- [Distributed Systems](#distributed-systems) `18`
-- [Databases](#databases) `116`
+- [System Design & Architecture](#system-design-architecture) `58`
+- [Distributed Systems](#distributed-systems) `19`
+- [Databases](#databases) `99`
 - [Java & JVM](#java-jvm) `65`
-- [Go (Golang)](#go-golang) `10`
+- [Go (Golang)](#go-golang) `12`
 - [Rust & Low-Level Programming](#rust-low-level-programming) `6`
-- [Algorithms & Data Structures](#algorithms-data-structures) `22`
+- [Algorithms & Data Structures](#algorithms-data-structures) `23`
 - [Kafka & Event Streaming](#kafka-event-streaming) `13`
-- [Kubernetes & Containers](#kubernetes-containers) `62`
+- [Kubernetes & Containers](#kubernetes-containers) `70`
 - [Cloud & AWS](#cloud-aws) `7`
-- [DevOps & CI/CD](#devops-ci-cd) `8`
+- [DevOps & CI/CD](#devops-ci-cd) `10`
 - [Operating Systems & Linux](#operating-systems-linux) `10`
-- [eBPF & Systems Tracing](#ebpf-systems-tracing) `3`
-- [Networking & Protocols](#networking-protocols) `8`
-- [Security](#security) `9`
-- [Machine Learning & AI](#machine-learning-ai) `18`
-- [AI Agents & Claude Code](#ai-agents-claude-code) `8`
-- [Monitoring & Observability](#monitoring-observability) `15`
-- [Performance & Optimization](#performance-optimization) `7`
-- [Data Engineering](#data-engineering) `6`
-- [Computer Science Fundamentals](#computer-science-fundamentals) `5`
+- [eBPF & Systems Tracing](#ebpf-systems-tracing) `4`
+- [Networking & Protocols](#networking-protocols) `11`
+- [Security](#security) `10`
+- [Machine Learning & AI](#machine-learning-ai) `19`
+- [AI Agents & Claude Code](#ai-agents-claude-code) `9`
+- [Monitoring & Observability](#monitoring-observability) `14`
+- [Performance & Optimization](#performance-optimization) `10`
+- [Data Engineering](#data-engineering) `4`
+- [Computer Science Fundamentals](#computer-science-fundamentals) `7`
 - [Career & Engineering Growth](#career-engineering-growth) `10`
-- [Courses, Books & Learning Paths](#courses-books-learning-paths) `12`
-- [Robotics & Embedded Systems](#robotics-embedded-systems) `1`
+- [Courses, Books & Learning Paths](#courses-books-learning-paths) `10`
+- [Robotics & Embedded Systems](#robotics-embedded-systems) `2`
 - [Open Source Tools & Projects](#open-source-tools-projects) `10`
-- [Engineering Blogs & General Resources](#engineering-blogs-general-resources) `262`
+- [Engineering Blogs & General Resources](#engineering-blogs-general-resources) `234`
 
 ---
 
@@ -86,13 +86,11 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [The 7 Software Architecture Books Experienced Developers Need to Read | HackerNoon](https://hackernoon.com/the-7-software-architecture-books-experienced-developers-need-to-read)
 - [Implementing clean architecture solutions: A practical example | Red Hat Developer](https://developers.redhat.com/articles/2023/08/08/implementing-clean-architecture-solutions-practical-example)
 - [Designing APIs for humans: Design patterns - DEV Community](https://dev.to/stripe/designing-apis-for-humans-design-patterns-5847)
-- [Top 10 Must-Have Tools for Kubernetes Engineers](https://semaphoreci.com/blog/kubernetes-tools)
 - [Building Low Friction gRPC API Gateways](https://kostyay.com/building-low-friction-grpc-api-gateways-bb1afbf233f4)
 - [An In Depth Exploration Of Rest Grpc And Graphql I](https://dzone.com/articles/an-in-depth-exploration-of-rest-grpc-and-graphql-i)
 - [Understanding Grpc Concepts Best Practices](https://www.infracloud.io/blogs/understanding-grpc-concepts-best-practices/)
 - [Designing Scalable Notification System](https://adityagoel123.medium.com/designing-scalable-notification-system-79f83272755e)
 - [12 Factor App](https://www.redhat.com/architect/12-factor-app)
-- [Backstage on Kubernetes - Piotr's TechBlog](https://piotrminkowski.com/2024/06/28/backstage-on-kubernetes/)
 - [Failures and Resilience in Microservices — Mathematical Calculations | by Gul Ershad | Aug, 2024 | ITNEXT](https://itnext.io/mathematical-calculations-for-the-failures-and-resilience-in-microservices-f035437789a9)
 - [DevOps Project: CI/CD Pipeline for a Microservices-Based Application on Kubernetes - DEV Community](https://dev.to/prodevopsguytech/devops-project-cicd-pipeline-for-a-microservices-based-application-on-kubernetes-1ba8)
 - [Digging Deep to Find the Right Balance Between DDD, Clean and Hexagonal Architectures - DEV Community](https://dev.to/y9vad9/digging-deep-to-find-the-right-balance-between-ddd-clean-and-hexagonal-architectures-4dnn)
@@ -108,7 +106,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Designing Resilient Event-Driven Systems at Scale - InfoQ](https://www.infoq.com/articles/scalable-resilient-event-systems/)
 - [Why We Replaced Kafka with gRPC for Service Communication](https://medium.com/@himanshusingour7/why-we-replaced-kafka-with-grpc-for-service-communication-1c946db514d4)
 - [Cell Based Architecture Scalable Resilient Cloud Design](https://dzone.com/articles/cell-based-architecture-scalable-resilient-cloud-design?edition=989314&email_hash=d81f265aee3958897ad13604b99e311b)
-- [AntInLoop - Master Algorithms & Data Structures | Learn DSA Online](https://antinloop.com/)
 - [How Shopify Handles 30TB of Data Every Minute with a Monolithic Architecture](https://medium.com/@himanshusingour7/how-shopify-handles-30tb-of-data-every-minute-with-a-monolithic-architecture-cad54df86955)
 - [Microservices Kubernetes Grpc Circuit Breakers](https://dzone.com/articles/microservices-kubernetes-grpc-circuit-breakers)
 - [Understanding the C4 Model: A Clear Path to Documenting Software Architecture](https://alirezafarokhi.medium.com/understanding-the-c4-model-a-clear-path-to-documenting-software-architecture-88c9ee618a08)
@@ -119,6 +116,8 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Codemia | Master System Design Interviews Through Active Practice](https://codemia.io/?via=javarevisited)
 - [Start Here](https://highscalability.com/start-here/)
 - [Backpressure in System Design: Why It Matters and How to Implement It | by Sushank Hegde | Medium](https://medium.com/@sushankhegde10/backpressure-in-system-design-why-it-matters-and-how-to-implement-it-e3043ba738e6)
+- [Tomato Architecture](https://tomato-architecture.netlify.app/)
+- [Notification System Design](https://cloudificationzone.com/2021/08/13/notification-system-design/)
 
 ---
 
@@ -146,10 +145,11 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Building a 100K URLs/Second System with DynamoDB | ITNEXT](https://itnext.io/distributed-tinyurl-architecture-how-to-handle-100k-urls-per-second-54182403117e)
 - [Reliability Glossary](https://antithesis.com/resources/reliability_glossary/)
 - [Consistency Over Availability: How rqlite handles the CAP Theorem – Vallified](https://philipotoole.com/consistency-over-availability-how-rqlite-handles-the-cap-theorem/)
-- [Btree Index Structures In Innodb](https://blog.jcole.us/2013/01/10/btree-index-structures-in-innodb/)
-- [The Basics Of The Innodb Undo Logging And History System](https://blog.jcole.us/2014/04/16/the-basics-of-the-innodb-undo-logging-and-history-system/)
 - [From Cron to Distributed Schedulers: Scaling Job Execution to Thousands of Jobs per Second](https://itnext.io/from-cron-to-distributed-schedulers-scaling-job-execution-to-thousands-of-jobs-per-second-ef05955bf3d9)
 - [The Log: What every software engineer should know about real-time data's unifying abstraction | LinkedIn Engineering](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
+- [Raft Consensus Algorithm](https://raft.github.io/)
+- [An Illustrated Proof Of The Cap Theorem](https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/?utm_source=newsletter.programmingdigest.net&utm_medium=newsletter&utm_campaign=practices-of-reliable-software-design)
+- [Unlocking the Secrets of CAP Theorem: What No One Tells You About Consistency, Availability, and Partition Tolerance](https://levelup.gitconnected.com/unlocking-the-secrets-of-cap-theorem-what-no-one-tells-you-about-consistency-availability-and-cfb5a891442d)
 
 ---
 
@@ -159,9 +159,7 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 
 - [postgres_internals/mvcc at main  Shresth72/postgres_internals](https://github.com/Shresth72/postgres_internals/tree/main/mvcc)
 - [GitHub - binhnguyennus/awesome-scalability: The Patterns of Scalable, Reliable, and Performant Large-Scale Systems  GitHub](https://github.com/binhnguyennus/awesome-scalability)
-- [GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms  GitHub](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 - [GitHub - VictoriaMetrics/VictoriaLogs: Fast and easy to use database for logs, which can efficiently handle terabytes of logs  GitHub](https://github.com/VictoriaMetrics/VictoriaLogs/)
-- [immanuwell/DevOps-interview-questions](https://github.com/immanuwell/DevOps-interview-questions)
 
 ### Books & Courses
 
@@ -177,23 +175,17 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [MongoDB vs MySQL – Difference Between Them](https://www.guru99.com/mongodb-vs-mysql.html#:~:text=MongoDB%20uses%20JavaScript%20as%20query,need%20a%20traditional%20relational%20database)
 - [Mongodb Mysql](https://www.mongodb.com/compare/mongodb-mysql)
 - [Beginning Database Design | SpringerLink](https://link.springer.com/book/10.1007/978-1-4302-0366-7)
-- [Performance](https://stackexchange.com/performance)
-- [How Is Platform Engineering Different From Devops And Sre](https://thenewstack.io/how-is-platform-engineering-different-from-devops-and-sre/)
 - [Core Performance Best Practices | Microsoft Learn](https://learn.microsoft.com/en-us/aspnet/core/performance/performance-best-practices)
-- [Seeing Through Hardware Counters: A Journey to Threefold Performance Increase](https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-threefold-performance-increase-2721924a2822)
 - [How to Create NodeJS APIs Using Node.js, Typescript, MongoDB & Express](https://morioh.com/)
 - [Comparing Database Types](https://www.prisma.io/dataguide/intro/comparing-database-types)
 - [What Is A Query Planner](https://planetscale.com/blog/what-is-a-query-planner)
-- [5 Things to Consider When Building a Kubernetes Platform - The New Stack](https://thenewstack.io/5-things-to-consider-when-building-a-kubernetes-platform/)
 - [I Struggle to Read and Write 100K Requests in Postgres DB, and My Aggressive Solution with Redis](https://medium.datadriveninvestor.com/i-struggle-to-read-and-write-100k-requests-in-postgres-db-with-my-aggressive-solution-with-redis-91461a8316a1)
 - [Improving Search Performance: Travolic's Successful Migration to Elasticsearch](https://medium.com/@mle.mahmoud.yasser/elasticsearch-improving-search-performance-76532630436b)
 - [From Postgres To Amazon Dynamodb %Ef%Bf%Bc](https://www.instacart.com/company/how-its-made/from-postgres-to-amazon-dynamodb-%EF%BF%BC/)
-- [How to deploy NGINX Ingress Controller on Kubernetes using kubectl - Platform9 Learning](https://platform9.com/learn/v1.0/tutorials/nginix-controller-via-yaml)
 - [Java Databases](https://www.marcobehler.com/guides/java-databases)
 - [Please stop calling databases CP or AP — Martin Kleppmann’s blog](https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html)
 - [4 Advanced Sharding Techniques Every Software Engineer Must Know | by Arslan Ahmad | Aug, 2023 | Level Up Coding](https://levelup.gitconnected.com/4-advanced-sharding-techniques-every-software-engineer-must-know-b4493dc6ec0f)
 - [Relational Databases Explained](https://architecturenotes.co/things-you-should-know-about-databases/)
-- [Understanding Java Internals: Speed and Performance](https://www.freecodecamp.org/news/understanding-java-internals-speed-and-performance/)
 - [Postgres Full Text Search Engine](https://xata.io/blog/postgres-full-text-search-engine?ref=architecturenotes.co)
 - [Postgres Full Text Search Postgres Vs Elasticsearch](https://xata.io/blog/postgres-full-text-search-postgres-vs-elasticsearch)
 - [Small Datum: Fixing bug 109595 makes MySQL almost 4X faster on the Insert Benchmark](https://smalldatum.blogspot.com/2023/11/fixing-bug-109595-makes-mysql-almost-4x.html)
@@ -203,24 +195,17 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [11 Database Optimization Techniques](https://danielfoo.medium.com/11-database-optimization-techniques-97fdbed1b627)
 - [The Power of Database Indexing Algorithms: B-Tree vs. Hash Indexing](https://dip-mazumder.medium.com/the-power-of-database-indexing-algorithms-b-tree-vs-hash-indexing-6e3a4112a81#:~:text=Hash%20Indexing,-The%20Java%20Trail&text=Database%20indexing%20is%20a,user%20experience%20and%20decreased%20productivity)
 - [Moving from DynamoDB to Tiered Storage with MySQL+S3](https://zendesk.engineering/moving-from-dynamodb-to-tiered-storage-with-mysql-s3-cb3dc9bf813a)
-- [What Is An Internal Developer Platform](https://internaldeveloperplatform.org/what-is-an-internal-developer-platform/)
 - [2017 10 13 Mitigating Replication Lag And Reducing Read Load With Freno](https://github.blog/2017-10-13-mitigating-replication-lag-and-reducing-read-load-with-freno/)
 - [Building High-Performing Software Systems: A Guide to Architectural Styles and Techniques](https://romanglushach.medium.com/building-high-performing-software-systems-a-guide-to-architectural-styles-and-techniques-00dc89e08147)
 - [From Postgres to ScyllaDB NoSQL, with a 349x Speed Boost - The New Stack](https://thenewstack.io/from-postgres-to-scylladb-nosql-with-a-349x-speed-boost/)
-- [iximiuz Labs - Learning-by-Doing Platform to master Cloud Native craft](https://labs.iximiuz.com/)
 - [Implement Leaderboard With Redis Sorted Sets](https://implementing.substack.com/p/implement-leaderboard-with-redis-sorted-sets)
 - [4000 microservices, 8 million customers, 1 Internal Developer Platform](https://platformengineering.org/events/4000-microservices-8-million-customers-1-internal-developer-platform)
-- [The Performance Golden Rule](https://www.stevesouders.com/blog/2012/02/10/the-performance-golden-rule/)
 - [How to implement a Distributed Lock using Redis - DEV Community](https://dev.to/ssd/how-to-implement-a-distributed-lock-using-redis-he)
 - [How JPA works from your Java code to the Database](https://robertniestroj.hashnode.dev/how-jpa-works-from-your-java-code-to-the-database)
 - [How To Run Databases On Kubernetes An 8 Step Guide](https://thenewstack.io/how-to-run-databases-on-kubernetes-an-8-step-guide/)
-- [Jvm Performance Tuning For High Throughput And Low Latency](https://dzone.com/articles/jvm-performance-tuning-for-high-throughput-and-low-latency?edition=943903)
 - [Modern Hardware for Future Databases](https://transactional.blog/blog/2024-modern-database-hardware)
-- [Computer Networking Fundamentals For Developers, DevOps, and Platform Engineers (course) | iximiuz Labs](https://labs.iximiuz.com/courses/computer-networking-fundamentals)
-- [Building a Log Analysis Data Pipeline Using Kafka, Elasticsearch, Logstash and Kibana (ELK Stack)](https://towardsdev.com/building-a-log-analysis-data-pipeline-using-kafka-elasticsearch-logstash-and-kibana-elk-stack-8c7c0c034d3f)
 - [7 Databases in 7 Weeks for 2025](https://matt.blwt.io/post/7-databases-in-7-weeks-for-2025/)
 - [Leaderless Replication For Distributed Data](https://dzone.com/articles/leaderless-replication-for-distributed-data?edition=955907)
-- [Practical Protobuf - From Basic to Best Practices](https://victoriametrics.com/blog/go-protobuf-basic/)
 - [What I Learned Operating Clickhouse](https://www.tinybird.co/blog-posts/what-i-learned-operating-clickhouse)
 - [Sharding with SpringBoot](https://medium.com/@rajkundalia/sharding-with-springboot-c9530e6af929)
 - [How Figma's Databases Team Lived to Tell the Scale | Figma Blog](https://www.figma.com/blog/how-figmas-databases-team-lived-to-tell-the-scale/)
@@ -230,21 +215,16 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [ClickStack: A High-Performance OSS Observability Stack on ClickHouse](https://clickhouse.com/blog/clickstack-a-high-performance-oss-observability-stack-on-clickhouse)
 - [Database observability: How OpenTelemetry semantic conventions improve consistency across signals | Grafana Labs](https://grafana.com/blog/2025/06/06/database-observability-how-opentelemetry-semantic-conventions-improve-consistency-across-signals/)
 - [rgSQL: A test suite for database engines](https://technicaldeft.com/posts/rgsql-a-test-suite-for-database-engines)
-- [How to Build a Multi-Tenancy Internal Developer Platform with GitOps and vCluster](https://itnext.io/how-to-build-a-multi-tenancy-internal-developer-platform-with-gitops-and-vcluster-d8f43bfb9c3d)
 - [10X Performance Improvement For Expression Evaluation Made Possible By Vectorized Execution](https://www.pingcap.com/blog/10x-performance-improvement-for-expression-evaluation-made-possible-by-vectorized-execution/)
-- [Deploying And Managing Redis On Kubernetes](https://collabnix.com/deploying-and-managing-redis-on-kubernetes/)
 - [Caching — PlanetScale](https://planetscale.com/blog/caching)
 - [Clickhouse Cloud Stateless Compute](https://clickhouse.com/blog/clickhouse-cloud-stateless-compute)
 - [Mongodb Change Streams And Go 4J0B](https://dev.to/mongodb/mongodb-change-streams-and-go-4j0b)
 - [Cloudflare Chooses PostgreSQL Extension Over Specialized OLAP for 100K Row/Second Analytics - InfoQ](https://www.infoq.com/news/2025/07/cloudflare-timescaledb-olap/)
 - [Optimizing Docker Images: Performance, Security, and Efficiency](https://medium.com/@najdmerabet/optimizing-docker-images-performance-security-and-efficiency-947d29908e53)
-- [Transformers from Scratch](https://e2eml.school/transformers.html)
 - [Making Postgres 42,000x slower because I am unemployed](https://byteofdev.com/posts/making-postgres-slow/)
 - [VictoriaLogs Practical Ingestion Guide for Message, Time and Streams](https://victoriametrics.com/blog/victorialogs-concepts-message-time-stream/)
 - [Iceberg Topics For Apache Kafka Zero Etl Zero Copy](https://aiven.io/blog/iceberg-topics-for-apache-kafka-zero-etl-zero-copy)
 - [Calvin Fast Distributed Transactions For Partitioned Database Systems](https://sayedalesawy.hashnode.dev/calvin-fast-distributed-transactions-for-partitioned-database-systems)
-- [Go language previews performance-boosting garbage collector | InfoWorld](https://www.infoworld.com/article/4041753/go-language-previews-performance-boosting-garbage-collector.html)
-- [Dor Moshe's Blog](https://dormoshe.io/trending-news/go-logging-best-practices-fast-structured-and-production-ready-87269?utm_source=twitter&utm_campaign=twitter)
 - [Grafana's metrics backend for go-mysql-server | DoltHub Blog](https://dolthub.com/blog/2025-09-25-grafana-with-go-mysql-server/)
 - [A Beginners Guide To Cdc Change Data Capture](https://vladmihalcea.com/a-beginners-guide-to-cdc-change-data-capture/)
 - [Log Sql Spring Boot](https://vladmihalcea.com/log-sql-spring-boot/)
@@ -257,8 +237,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [How To Import Csv Data Into Postgresql](https://vladmihalcea.com/how-to-import-csv-data-into-postgresql/)
 - [Relational Database Sql Prepared Statements](https://vladmihalcea.com/relational-database-sql-prepared-statements/)
 - [Effective Error Handling: A Uniform Strategy for Heterogeneous Distributed Systems - InfoQ](https://www.infoq.com/podcasts/uniform-strategy-heterogeneous-distributed-systems/)
-- [A practical guide to high-performance serverless with GraalVM and Spring | InfoWorld](https://www.infoworld.com/article/4078803/taming-the-java-cold-start-beast-a-practical-guide-to-high-performance-serverless-with-graalvm-and-spring.html)
-- [Building a Kubernetes Platform: Think Big, Think in Planes](https://itnext.io/building-a-kubernetes-platform-think-big-think-in-planes-ede8bcba295f)
 - [Postgres Pubsub Queue Benchmarks](https://topicpartition.io/blog/postgres-pubsub-queue-benchmarks)
 - [Building a Resilient Data Platform with Write-Ahead Log at Netflix](https://netflixtechblog.com/building-a-resilient-data-platform-with-write-ahead-log-at-netflix-127b6712359a)
 - [Jdbc Profiling Visualvm](https://vladmihalcea.com/jdbc-profiling-visualvm/)
@@ -267,18 +245,23 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Go ahead, self-host Postgres | Pierce Freeman](https://pierce.dev/notes/go-ahead-self-host-postgres)
 - [How to Build a Database Without a Server - InfoQ](https://www.infoq.com/presentations/arcticdb-db-no-server/)
 - [Introducing: Postgres Best Practices](https://supabase.com/blog/postgres-best-practices-for-ai-agents)
-- [Startup Perks Database | Free Credits & Discounts for Startups](https://www.startupperks.xyz/?fbclid=IwY2xjawPyJxhleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA80MDk5NjI2MjMwODU2MDkAAR62SXXibjicDmfrlWxmwI4etGN1dPRO5qdRx-BpxETaG_W9c4cqyupJIG7KZA_aem_wWFWr6sQHuehN4eGW9EchA)
 - [Build Your Own Key-Value Storage Engine—Week 6: Block-Based SSTables and Indexing](https://read.thecoder.cafe/p/build-your-own-kv-engine-6)
 - [Transactions](http://pscale.link/transactions)
 - [PostgreSQL triggers and isolation levels - Vlad Mihalcea](https://vladmihalcea.com/postgresql-triggers-isolation-levels/)
 - [Netflix Automates RDS PostgreSQL to Aurora PostgreSQL Migration Across 400 Production Clusters - InfoQ](https://www.infoq.com/news/2026/03/netflix-automates-rds-aurora/)
 - [Kfc Architecture Blueprint Kafka Flink And Clickhouse](https://bigdataboutique.com/blog/kfc-architecture-blueprint-kafka-flink-and-clickhouse)
-- [Inside the JVM: The Engineering Behind Enterprise Performance](https://www.tmdevlab.com/jvm-engineering-enterprise-performance.html)
-- [Humanoid Atlas | Humanoid Robot Supply Chain Map & OEM Database](https://www.humanoids.fyi/)
 - [Databasemaxxing](https://pthorpe92.dev/databasemaxxing/)
 - [Build A Bank Ledger In Go With Postgresql Using The Double Entry Accounting Principle](https://www.freecodecamp.org/news/build-a-bank-ledger-in-go-with-postgresql-using-the-double-entry-accounting-principle/)
 - [How TimescaleDB Expands the PostgreSQL IIoT Performance Envelope | Tiger Data](https://www.tigerdata.com/blog/how-timescaledb-expands-postgresql-iiot-performance-envelope)
 - [Redis](https://build-your-own.org/redis/)
+- [Btree Index Structures In Innodb](https://blog.jcole.us/2013/01/10/btree-index-structures-in-innodb/)
+- [The Basics Of The Innodb Undo Logging And History System](https://blog.jcole.us/2014/04/16/the-basics-of-the-innodb-undo-logging-and-history-system/)
+- [Write Ahead Log Wal](https://newsletter.devopscube.com/p/write-ahead-log-wal)
+- [Build Your Own Key-Value Storage Engine—Week 3: Durability with Write-Ahead Logging](https://read.thecoder.cafe/p/build-your-own-kv-engine-3)
+- [Explain Plan Visualizer by Datadog](https://explain.datadoghq.com/)
+- [Build Your Own Key-Value Storage Engine—Week 1: In-Memory Store](https://read.thecoder.cafe/p/build-your-own-kv-engine-1)
+- [The Internals of PostgreSQL (interdb.jp)](https://www.interdb.jp/pg)
+- [Query Execution Joins](https://samuelsorial.tech/query-execution-joins)
 
 ---
 
@@ -286,18 +269,12 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 
 ### Repositories
 
-- [Forks  airbnb/javascript](https://github.com/airbnb/javascript)
 - [sivaprasadreddy/hexagonal-architecture-java-fork](https://github.com/sivaprasadreddy/hexagonal-architecture-java-fork/tree/spring-boot-layered)
 - [ionutbalosin/java-application-security-practices](https://github.com/ionutbalosin/java-application-security-practices)
-
-### Papers & Research
-
-- [Loading PDF…](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf)
 
 ### Books & Courses
 
 - [Generative Ai For Java And Spring Developers](https://www.coursera.org/specializations/generative-ai-for-java-and-spring-developers)
-- [Computation Structures | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/)
 
 ### Articles & Tutorials
 
@@ -313,7 +290,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Javarevisited: System Design Interview Prep Guide 2023 - Topics, Questions, and Resources](https://javarevisited.blogspot.com/2022/03/how-to-prepare-for-system-design.html)
 - [Practical Examples of the Big O Notation | Baeldung on Computer Science](https://www.baeldung.com/cs/big-oh-asymptotic-complexity)
 - [Introduction to gRPC with Spring Boot](https://piotrminkowski.com/2023/08/29/introduction-to-grpc-with-spring-boot/)
-- [Java Developer](https://career.luxoft.com/job/java-developer/359930/)
 - [A categorized list of all Java and JVM features since JDK 8 to 21 - Advanced Web Machinery](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-21/)
 - [Memory Management in Java: An Introduction](https://foojay.io/today/java-memory-management/)
 - [Step-by-Step Guide to Becoming a Java Architect](https://www.analyticsinsight.net/step-by-step-guide-to-becoming-a-java-architect/)
@@ -360,6 +336,10 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [AI4JVM — Java & JVM AI Ecosystem Guide: Agent Frameworks, Inference Engines & Tools](https://ai4jvm.com)
 - [Course info – Compilers](https://hy-compilers.github.io/spring-2026/)
 - [How We Built A Java Ai Agent By Connecting The Dots The Ecosystem Already Had](https://foojay.io/today/how-we-built-a-java-ai-agent-by-connecting-the-dots-the-ecosystem-already-had/)
+- [Understanding Java Internals: Speed and Performance](https://www.freecodecamp.org/news/understanding-java-internals-speed-and-performance/)
+- [Jvm Performance Tuning For High Throughput And Low Latency](https://dzone.com/articles/jvm-performance-tuning-for-high-throughput-and-low-latency?edition=943903)
+- [A practical guide to high-performance serverless with GraalVM and Spring | InfoWorld](https://www.infoworld.com/article/4078803/taming-the-java-cold-start-beast-a-practical-guide-to-high-performance-serverless-with-graalvm-and-spring.html)
+- [Inside the JVM: The Engineering Behind Enterprise Performance](https://www.tmdevlab.com/jvm-engineering-enterprise-performance.html)
 
 ---
 
@@ -380,6 +360,8 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Learning Go in 2026; From Beginner to Senior](https://www.bytesizego.com/blog/learning-golang-2026)
 - [Go vs Java: Which One Should You Choose?](https://www.analyticsinsight.net/coding/programming-languages/go-or-java-choosing-the-right-language-for-your-project)
 - [Just Fucking Use Go - Blain Smith](https://blainsmith.com/articles/just-fucking-use-go/)
+- [Go language previews performance-boosting garbage collector | InfoWorld](https://www.infoworld.com/article/4041753/go-language-previews-performance-boosting-garbage-collector.html)
+- [Dor Moshe's Blog](https://dormoshe.io/trending-news/go-logging-best-practices-fast-structured-and-production-ready-87269?utm_source=twitter&utm_campaign=twitter)
 
 ---
 
@@ -425,6 +407,7 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Dynamic Programming](https://dp.quantecon.org/)
 - [Algorithms for Modern Hardware - Algorithmica](https://en.algorithmica.org/hpc/)
 - [Algorithms by Jeff Erickson](https://jeffe.cs.illinois.edu/teaching/algorithms/)
+- [AntInLoop - Master Algorithms & Data Structures | Learn DSA Online](https://antinloop.com/)
 
 ---
 
@@ -484,7 +467,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [The Kubernetes Introduction I Wish I Had When I Started: A Complete Guide](https://medium.com/@ksaquib/the-kubernetes-introduction-i-wish-i-had-when-i-started-a-complete-guide-f5127f6b5a9f)
 - [Mastering Multi Cluster Kubernetes Certificate Management With Cert Manager](https://komodor.com/blog/mastering-multi-cluster-kubernetes-certificate-management-with-cert-manager/)
 - [Introduction to Service Mesh - The New Stack](https://thenewstack.io/introduction-to-service-mesh/)
-- [Monitoring Go Applications Using Prometheus, Grafana, and Docker - DEV Community](https://dev.to/pradumnasaraf/monitoring-go-applications-using-prometheus-grafana-and-docker-33i5)
 - [Kubernetes Containers Linux Processes](https://blog.esc.sh/kubernetes-containers-linux-processes/)
 - [Choosing Your Local Kubernetes Companion: A Developer's Guide to Minikube, k0s, k3s, and MicroK8s - DEV Community](https://dev.to/mechcloud_academy/choosing-your-local-kubernetes-companion-a-developers-guide-to-minikube-k0s-k3s-and-microk8s-7g0)
 - [Unlocking Lightweight Kubernetes Logging with Loki and Grafana](https://blog.devops.dev/unlocking-lightweight-kubernetes-logging-with-loki-and-grafana-84814c614445)
@@ -513,7 +495,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Kubernetes Init Containers](https://devopscube.com/kubernetes-init-containers/)
 - [How Container Filesystem Works: Building a Docker-like Container From Scratch](https://labs.iximiuz.com/tutorials/container-filesystem-from-scratch)
 - [Kubernetes Services and Traffic Flow Analysis with Kubeshark](https://medium.com/@wangareirungu3/kubernetes-services-and-traffic-flow-analysis-with-kubeshark-736bfb9875a9)
-- [eBPF Beginner Skill Path](https://labs.iximiuz.com/skill-paths/ebpf-beginner-skill-path-aa16c6e8)
 - [k8s-1m Overview](https://bchess.github.io/k8s-1m/)
 - [Canary Deployment in Kubernetes with Zero Downtime](https://medium.com/@anil.goyal0057/canary-deployment-in-kubernetes-with-zero-downtime-15188a296d3c)
 - [A Guide To Kubernetes Vpa](https://www.randoli.io/blogs/a-guide-to-kubernetes-vpa)
@@ -521,8 +502,18 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Beyond Namespaces Why Kubernetes Needs Real Workload Isolation](https://thenewstack.io/beyond-namespaces-why-kubernetes-needs-real-workload-isolation/)
 - [The Hidden Headache Of Kubernetes Rbac](https://www.portainer.io/blog/the-hidden-headache-of-kubernetes-rbac?hss_channel=tw-779234043669774336)
 - [Debugging Kubernetes Pods Like A Pro](https://dzone.com/articles/debugging-kubernetes-pods-like-a-pro?email_hash=d81f265aee3958897ad13604b99e311b)
-- [Write Ahead Log Wal](https://newsletter.devopscube.com/p/write-ahead-log-wal)
 - [Kubernetes Networking From Packets To Pods](https://www.lucavall.in/blog/kubernetes-networking-from-packets-to-pods)
+- [5 Things to Consider When Building a Kubernetes Platform - The New Stack](https://thenewstack.io/5-things-to-consider-when-building-a-kubernetes-platform/)
+- [How to deploy NGINX Ingress Controller on Kubernetes using kubectl - Platform9 Learning](https://platform9.com/learn/v1.0/tutorials/nginix-controller-via-yaml)
+- [How to Build a Multi-Tenancy Internal Developer Platform with GitOps and vCluster](https://itnext.io/how-to-build-a-multi-tenancy-internal-developer-platform-with-gitops-and-vcluster-d8f43bfb9c3d)
+- [Building a Kubernetes Platform: Think Big, Think in Planes](https://itnext.io/building-a-kubernetes-platform-think-big-think-in-planes-ede8bcba295f)
+- [Deploying And Managing Redis On Kubernetes](https://collabnix.com/deploying-and-managing-redis-on-kubernetes/)
+- [iximiuz Labs - Learning-by-Doing Platform to master Cloud Native craft](https://labs.iximiuz.com/)
+- [Top 10 Must-Have Tools for Kubernetes Engineers](https://semaphoreci.com/blog/kubernetes-tools)
+- [Backstage on Kubernetes - Piotr's TechBlog](https://piotrminkowski.com/2024/06/28/backstage-on-kubernetes/)
+- [Kubepath](https://hefni-learn.netlify.app/kubepath)
+- [Understanding ReplicaSet vs. StatefulSet vs. DaemonSet vs. Deployments](https://semaphoreci.medium.com/understanding-replicaset-vs-statefulset-vs-daemonset-vs-deployments-9e983766f8d8)
+- [Comparison Of Service Meshes](https://livewyer.io/blog/2024/05/08/comparison-of-service-meshes/)
 
 ---
 
@@ -561,6 +552,8 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Understanding the Linux Filesystem: An In-Depth Guide for DevOps Engineers - DEV Community](https://dev.to/prodevopsguytech/understanding-the-linux-filesystem-an-in-depth-guide-for-devops-engineers-ona)
 - [The Complete Jenkins DevOps CI/CD Pipeline Bootcamp: Master Continuous Integration and Delivery](https://medium.com/@subhamchand200/the-complete-jenkins-devops-ci-cd-pipeline-bootcamp-master-continuous-integration-and-delivery-a87806c893ea)
 - [Jenkins Tutorial](https://spacelift.io/blog/jenkins-tutorial)
+- [What Is An Internal Developer Platform](https://internaldeveloperplatform.org/what-is-an-internal-developer-platform/)
+- [How Is Platform Engineering Different From Devops And Sre](https://thenewstack.io/how-is-platform-engineering-different-from-devops-and-sre/)
 
 ---
 
@@ -591,6 +584,7 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [An Applied Introduction to eBPF with Go — Ozan Sazak](https://sazak.io/articles/an-applied-introduction-to-ebpf-with-go-2024-06-06)
 - [What Is Ebpf](https://ebpf.io/what-is-ebpf/)
 - [ebpf.party](https://ebpf.party/)
+- [eBPF Beginner Skill Path](https://labs.iximiuz.com/skill-paths/ebpf-beginner-skill-path-aa16c6e8)
 
 ---
 
@@ -604,14 +598,20 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 
 - [How to Read a Paper (Keshav)](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)
 
+### Books & Courses
+
+- [Computer Networking (Coursera)](https://www.coursera.org/learn/computer-networking/home/week/1)
+
 ### Articles & Tutorials
 
-- [What Is Software Complexity](https://carlalexander.ca/what-is-software-complexity/?fbclid=IwAR1FgWDC8sxn_QBGukzSbAJLfrdTG6Nvdea83ehQ1ADbE4-NaqGi2uHlmuU)
 - [Mastering NGINX: A Beginner-Friendly Guide to Building a Fast, Secure, and Scalable Web Server](https://medium.com/@nomannayeem/mastering-nginx-a-beginner-friendly-guide-to-building-a-fast-secure-and-scalable-web-server-cb075b423298)
 - [If you're not using them already, you need to set up Nginx reverse proxies in your home lab - here's how](https://www.xda-developers.com/how-to-set-up-nginx-reverse-proxies-in-your-home-lab/)
 - [HyperText Transfer Protocol (HTTP) explained](https://http.dev/)
 - [What Are Namespaces Cgroups How Do They Work](https://blog.nginx.org/blog/what-are-namespaces-cgroups-how-do-they-work)
 - [NGINX Architecture – NGINX Community Blog](https://blog.nginx.org/nginx-architecture)
+- [Computer Networking Fundamentals For Developers, DevOps, and Platform Engineers (course) | iximiuz Labs](https://labs.iximiuz.com/courses/computer-networking-fundamentals)
+- [Practical Protobuf - From Basic to Best Practices](https://victoriametrics.com/blog/go-protobuf-basic/)
+- [What Is iptables and How to Use It? | by Meysam | SkillUp Ed | Medium](https://medium.com/skilluped/what-is-iptables-and-how-to-use-it-781818422e52)
 
 ---
 
@@ -631,6 +631,7 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Resources](https://www.securityjourney.com/resources)
 - [./ - Hitchhiker's Guide](https://www.anonymousplanet.org/guide/)
 - [Bug Bounty Masterclass | Wiz](https://www.wiz.io/bug-bounty-masterclass)
+- [Www Project Top Ten](https://owasp.org/www-project-top-ten/#)
 
 ---
 
@@ -662,6 +663,7 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Practical Deep Learning for Coders - Practical Deep Learning](https://course.fast.ai/)
 - [The Roadmap of Mathematics for Machine Learning](https://thepalindrome.org/p/the-roadmap-of-mathematics-for-machine-learning)
 - [Quantization from the ground up | ngrok blog](https://ngrok.com/blog/quantization)
+- [Transformers from Scratch](https://e2eml.school/transformers.html)
 
 ---
 
@@ -675,6 +677,7 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
 - [instructkr/claw-code](https://github.com/instructkr/claw-code)
 - [kyegomez/OpenMythos](https://github.com/kyegomez/OpenMythos)
+- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
 
 ### Articles & Tutorials
 
@@ -689,7 +692,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 
 - [GitHub - ccfos/nightingale: Nightingale for monitoring and alerting, just as Grafana for visualization](https://github.com/ccfos/nightingale)
 - [GitHub - openreplay/openreplay: Session replay, cobrowsing and product analytics you can self-host. Ideal for reproducing issues and iterating on your product](https://github.com/openreplay/openreplay)
-- [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
 - [GitHub - Tracer-Cloud/opensre: Build your own AI SRE agents. The open source toolkit for the AI era   GitHub](https://github.com/Tracer-Cloud/opensre?twclid=274p4nirdyoa0st0i6laqhcas0)
 
 ### Articles & Tutorials
@@ -701,10 +703,10 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Learn Opentelemetry Tracing Through A Grand Strategy Game Introducing Game Of Traces](https://grafana.com/blog/2025/08/11/learn-opentelemetry-tracing-through-a-grand-strategy-game-introducing-game-of-traces/?_bhlid=4734d33bf7644a5c30ee0c2ea8c6d162aaab30a3)
 - [Openmetrics Vs Opentelemetry](https://signoz.io/blog/openmetrics-vs-opentelemetry/?_bhlid=108b7386cdea405f86cdb80d28fe181dca8a3cb0)
 - [Prometheus Monitoring: Complete Setup & Best Practices](https://medium.com/@rosgluk/prometheus-monitoring-complete-setup-best-practices-9cee2d179038)
-- [Build Your Own Key-Value Storage Engine—Week 3: Durability with Write-Ahead Logging](https://read.thecoder.cafe/p/build-your-own-kv-engine-3)
 - [A Guide to Safe, Incremental Open Source Observability Migration - The New Stack](https://thenewstack.io/a-guide-to-safe-incremental-open-source-observability-migration/)
-- [Explain Plan Visualizer by Datadog](https://explain.datadoghq.com/)
 - [Logging Sucks - Your Logs Are Lying To You](https://loggingsucks.com/)
+- [Building a Log Analysis Data Pipeline Using Kafka, Elasticsearch, Logstash and Kibana (ELK Stack)](https://towardsdev.com/building-a-log-analysis-data-pipeline-using-kafka-elasticsearch-logstash-and-kibana-elk-stack-8c7c0c034d3f)
+- [Monitoring Go Applications Using Prometheus, Grafana, and Docker - DEV Community](https://dev.to/pradumnasaraf/monitoring-go-applications-using-prometheus-grafana-and-docker-33i5)
 
 ---
 
@@ -722,6 +724,9 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [About Memory Pressure Lock Contention And Data Oriented Design](https://mnt.io/articles/about-memory-pressure-lock-contention-and-data-oriented-design/)
 - [Hashing](https://samwho.dev/hashing/)
 - [Virtual Memory](https://blog.codingconfessions.com/p/virtual-memory)
+- [The Performance Golden Rule](https://www.stevesouders.com/blog/2012/02/10/the-performance-golden-rule/)
+- [Seeing Through Hardware Counters: A Journey to Threefold Performance Increase](https://netflixtechblog.com/seeing-through-hardware-counters-a-journey-to-threefold-performance-increase-2721924a2822)
+- [Everything I Know About SSDs 2019](https://kcall.co.uk/ssd/index.html)
 
 ---
 
@@ -736,8 +741,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 
 - [A non-beginner Data Engineering Roadmap — 2025 Edition | by Ernani Castro | Feb, 2025 | Data Engineer Things](https://blog.det.life/a-non-beginner-data-engineering-roadmap-2025-edition-2b39d865dd0b)
 - [How to Ingest 20-year-stock-trading data REST API with Apache Spark the right way (without Auto Loader)](https://blog.det.life/how-to-ingest-20-year-stock-trading-data-rest-api-with-apache-spark-the-right-way-without-auto-50a1da303077)
-- [Tomato Architecture](https://tomato-architecture.netlify.app/)
-- [Kubepath](https://hefni-learn.netlify.app/kubepath)
 
 ---
 
@@ -751,6 +754,11 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 ### Papers & Research
 
 - [Basic Writing and Syntax Book (CMU)](https://www.math.cmu.edu/~jmackey/151_128/bws_book.pdf)
+- [Loading PDF…](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf)
+
+### Books & Courses
+
+- [Computation Structures | Electrical Engineering and Computer Science | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/)
 
 ### Articles & Tutorials
 
@@ -783,7 +791,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 
 ### Books & Courses
 
-- [1](https://www.coursera.org/learn/computer-networking/home/week/1)
 - [Principles and Patterns for Distributed Application Architecture [Book]](https://learning.oreilly.com/library/view/-/9781098181260/)
 
 ### Articles & Tutorials
@@ -797,7 +804,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [From Junior to Senior: The Skills Roadmap No One Talks About - DEV Community](https://dev.to/teamcamp/from-junior-to-senior-the-skills-roadmap-no-one-talks-about-18fn)
 - [File Systems Architecture Explained](https://www.freecodecamp.org/news/file-systems-architecture-explained/)
 - [Keycloak Identity And Access Management](https://www.freecodecamp.org/news/keycloak-identity-and-access-management/)
-- [Build Your Own Key-Value Storage Engine—Week 1: In-Memory Store](https://read.thecoder.cafe/p/build-your-own-kv-engine-1)
 
 ---
 
@@ -806,6 +812,10 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 ### Repositories
 
 - [GitHub - mithi/robotics-coursework:  Places where you can learn robotics (and stuff like that) online   GitHub](https://github.com/mithi/robotics-coursework)
+
+### Articles & Tutorials
+
+- [Humanoid Atlas | Humanoid Robot Supply Chain Map & OEM Database](https://www.humanoids.fyi/)
 
 ---
 
@@ -883,28 +893,19 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 
 - [7 Free AWS Practice Labs and AWS Workshops resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)
 - [Introduction To Tdd](https://khalilstemmler.com/articles/test-driven-development/introduction-to-tdd/)
-- [Notification System Design](https://cloudificationzone.com/2021/08/13/notification-system-design/)
-- [L.Php](https://lm.facebook.com/l.php?u=https%3A%2F%2Fmorioh.com%2Fp%2Ff2bd29970df6%3Ff%3D5c21fb01c16e2556b555ab32&h=AT3xq9EJJ25ldVJl-01bfenN-tI2IBqEux1LvocUXdnwDJJ9N8GTdbL3uXNe7ONfpVu2lrgdx8ppF2EHyQhJE7nI60M5-SVy_x1Emr6sm6AMw4x8bY0qI5fArlqnjPgkm1IIcw&s=1)
+- [What Is Software Complexity](https://carlalexander.ca/what-is-software-complexity/?fbclid=IwAR1FgWDC8sxn_QBGukzSbAJLfrdTG6Nvdea83ehQ1ADbE4-NaqGi2uHlmuU)
 - [Tech communities you should join! (online and in person) - DEV Community](https://dev.to/juliafmorgado/tech-communities-you-should-join-online-and-in-person-4nba)
 - [Application Hosting How Polyhaven Manages 5 Million Page Views And 80Tb Traffic A Month For 400](https://scaleyourapp.com/application-hosting-how-polyhaven-manages-5-million-page-views-and-80tb-traffic-a-month-for-400/)
 - [Developer to Architect — Mark Richards](https://www.developertoarchitect.com/)
-- [Remote Backend Engineer (~$93k, Remote) at Rift Finance](https://remoteok.com/remote-jobs/remote-backend-engineer-rift-finance-150249)
 - [Software Quality](https://jenkov.com/tutorials/dev-essentials/software-quality.html)
 - [Intro Data Integration 2](https://dzone.com/articles/intro-data-integration-2)
 - [Data Blending What It Is And How To Do It](https://blog.panoply.io/data-blending-what-it-is-and-how-to-do-it)
-- [Eligibility Assessment - Office of Immigration Australia](https://www.immigrationsaustralia.com.au/eligibility-assess/)
 - [Up For Grabs — Open Source Tasks for New Contributors](https://up-for-grabs.net/#/)
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/?fbclid=IwAR2uGdlCw3jz80EvoDua1udtNw-S-zKwqDZsceY-92R-SfAjAtp8Ei9xFHo)
 - [Foreword -](https://csdiy.wiki/en/)
-- [Query Execution Joins](https://samuelsorial.tech/query-execution-joins)
-- [Dual monitor arm pro - FlakeTech](https://flaketech.net/product/dual-monitor-arm-pro-2/)
-- [Upload Resume.Php](https://resumeworded.com/upload-resume.php)
-- [Jobscan — ATS Resume Checker and Job Search Tools](https://www.jobscan.co)
 - [The Art of Writing Amazing REST APIs](https://jkebertz.medium.com/the-art-of-writing-amazing-rest-apis-dc4c4100478d)
 - [7 Git articles every open source practitioner should read |](https://opensource.com/article/23/1/git-articles)
 - [Historical Source Code That Every Developer Should See | by Shalitha Suranga | Jan, 2023 | Level Up Coding](https://levelup.gitconnected.com/historical-source-code-that-every-developer-should-see-a7e6c6cbd764)
-- [soundbetter.cc](https://soundbetter.cc)
-- [Www Project Top Ten](https://owasp.org/www-project-top-ten/#)
 - [Crafting Interpreters](https://craftinginterpreters.com/)
 - [NeetCode](https://neetcode.io/)
 - [Quastor — Engineering Newsletter](https://www.quastor.org/?fbclid=IwAR1FPizyZTYAShbJYCU3m7BzmKvy7fiGzO6yr48IVQDyIFK5coEZvXvZ4r4)
@@ -918,7 +919,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [ProjectLearn - Learn to Code by Creating Projects](https://projectlearn.io/?fbclid=IwAR3DS_Ba_KC6Xk2N43gTxzpZ22k0vPSOxsQQfgWFdDe2V7WZ_bkJyO-Qux4)
 - [How Discord Stores Trillions Of Messages](https://discord.com/blog/how-discord-stores-trillions-of-messages)
 - [The Law Of Leaky Abstractions](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/?fbclid=IwAR3cWDo-s07tfL7MntwfuXcscyXkRNAyN03SkpeqzJcFpxPMbMMexJkeCM0)
-- [What Is iptables and How to Use It? | by Meysam | SkillUp Ed | Medium](https://medium.com/skilluped/what-is-iptables-and-how-to-use-it-781818422e52)
 - [The Stack That Helped Medium Drive 2.6 Millennia of Reading Time](https://medium.engineering/the-stack-that-helped-medium-drive-2-6-millennia-of-reading-time-e56801f7c492)
 - [Poe — AI Chat Platform](https://poe.com)
 - [Kls5Acbtoyb](https://link.medium.com/Kls5ACbToyb)
@@ -928,45 +928,33 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Rznl9Gzs7Xb](https://link.medium.com/Rznl9GZs7xb)
 - [Reviewer](https://google.github.io/eng-practices/review/reviewer/)
 - [Just a moment](https://www.perplexity.ai/)
-- [Pg](https://www.interdb.jp/pg)
 - [The GPT-3 Architecture, on a Napkin](https://dugas.ch/artificial_curiosity/GPT_architecture.html?fbclid=IwAR1YKnge7zE1HDq9vR2_rgE0oWfSjDWe1dFjSYf4N6Q08IgYSgDUykvnXyI)
-- [[Newest] How to Reset Windows 10 Password?](https://www.passfab.net/windows-10/forgot-windows-10-password.html)
 - [Refcardz](https://dzone.com/refcardz?filter=popular)
 - [Best Books for Software Engineering Leaders | by Matt Bentley | Aug, 2023 | Level Up Coding](https://levelup.gitconnected.com/best-books-for-software-engineering-leaders-221be3d5b2b)
 - [Getting Started with Solution Architecture - Dometrain](https://dometrain.com/course/getting-started-solution-architecture/)
 - [Web-Pen Testing 101: The Ultimate Starter’s Guide – Codelivly](https://www.codelivly.com/web-pen-testing-101-the-ultimate-starters-guide/)
-- [Senior Backend Software Engineer 17](https://remote.co/job/senior-backend-software-engineer-17/)
-- [Associate Software Engineer at DISNEY](https://jobs.disneycareers.com/job/burbank/associate-software-engineer/391/53293399328)
-- [Software Engineer I (REMOTE) - Technology - Corporate](https://www.dickssportinggoods.jobs/jobs/19067553/software-engineer-i-remote-remote/)
 - [“Good Commit” vs “Your Commit”: How to Write a Perfect Git Commit Message | by Victor Timi | Sep, 2023](https://levelup.gitconnected.com/good-commit-vs-your-commit-how-to-write-a-perfect-git-commit-message-6e96ab6357fa)
-- [Sweden Companies Visa Sponsorship Jobs 2023](https://opportunitiescorners.com/sweden-companies-visa-sponsorship-jobs-2023/)
 - [Async](https://engineering.fb.com/2020/08/17/production-engineering/async/)
-- [lensgo.ai](https://lensgo.ai/)
 - [CS 124: An Introduction to Computer Science](https://www.cs124.org/)
 - [Linkedin S Journey To Java 11](https://engineering.linkedin.com/blog/2022/linkedin-s-journey-to-java-11)
 - [Maxjourney Pushing Discords Limits With A Million Plus Online Users In A Single Server](https://discord.com/blog/maxjourney-pushing-discords-limits-with-a-million-plus-online-users-in-a-single-server?utm_source=blog.quastor.org&utm_medium=newsletter&utm_campaign=how-discord-can-serve-millions-of-users-from-a-single-server)
 - [JSON is Incredibly Slow: Here's What's Faster!](https://medium.com/data-science-community-srm/json-is-incredibly-slow-heres-what-s-faster-ca35d5aaf9e8)
-- [Understanding ReplicaSet vs. StatefulSet vs. DaemonSet vs. Deployments](https://semaphoreci.medium.com/understanding-replicaset-vs-statefulset-vs-daemonset-vs-deployments-9e983766f8d8)
 - [Mastering Java Persistence Best Practices For Clou](https://dzone.com/articles/mastering-java-persistence-best-practices-for-clou)
 - [A Practical Guide To Writing Technical Specs](https://stackoverflow.blog/2020/04/06/a-practical-guide-to-writing-technical-specs/)
 - [Micro Frontends Architecture - DZone](https://dzone.com/articles/micro-frontends-architecture)
 - [k6 — Load Testing for Engineering Teams](https://k6.io/)
 - [How I learn Software Engineering](https://medium.com/@hnasr/how-i-learn-software-engineering-eae8e25ccac9)
 - [Introduction To Snowflake For Junior Software Engi](https://dzone.com/articles/introduction-to-snowflake-for-junior-software-engi?utm_source=Sailthru&utm_medium=email&utm_campaign=DZone_Daily_Digest_12.01.2023&utm_term=dzone-daily-digest-active)
-- [Raft Consensus Algorithm](https://raft.github.io/)
 - [Amp](https://www-workingsoftware-dev.cdn.ampproject.org/c/s/www.workingsoftware.dev/the-ultimate-list-of-software-architecture-books-in-2024/amp/)
 - [Internal Architecture and Working of Apache Tomcat](https://blog.stackademic.com/internal-architecture-and-working-of-apache-tomcat-4a0b1800627d)
 - [Reactive Programming in Java — Good Time to Die](https://medium.com/@viraj_63415/reactive-programming-in-java-good-time-to-die-79f243dc1275)
 - [Architecture: The Cheat Sheet](https://lab.scub.net/architecture-patterns-the-cheat-sheet-e8b5386f4b4b)
 - [V1.0.0](https://www.conventionalcommits.org/en/v1.0.0/?fbclid=IwAR2pcs5YyUcC5awqGy_mH5b-t9n9-RArBh0QaKdXBaiwCz2VggNOxRmC6XA)
 - [Inversion of Control and Dependency Injection](https://medium.com/@ali.gelenler/inversion-of-control-and-dependency-injection-047dba4d10dc)
-- [Everything I Know About SSDs 2019](https://kcall.co.uk/ssd/index.html)
 - [System Design Concepts: Computer Architecture](https://levelup.gitconnected.com/system-design-concepts-computer-architecture-5f2bc395aeb0)
 - [System Design — A Deep Dive into the Food Ordering System](https://medium.com/@systemdesignbychk/system-design-a-deep-dive-into-the-food-ordering-system-f84ae6375ce3)
 - [API Design 101: From Basics to Best Practices](https://levelup.gitconnected.com/api-design-101-from-basics-to-best-practices-a0261cdf8886)
 - [Pagination](https://open.substack.com/pub/francofernando/p/pagination?utm_source=share&utm_medium=android&r=8etn5)
-- [Unlocking the Secrets of CAP Theorem: What No One Tells You About Consistency, Availability, and Partition Tolerance](https://levelup.gitconnected.com/unlocking-the-secrets-of-cap-theorem-what-no-one-tells-you-about-consistency-availability-and-cfb5a891442d)
-- [1Cgn7De3Pnrnh 4Ba Zrrmlqwz6Kquwud](https://drive.google.com/drive/u/0/mobile/folders/1CgN7DE3pNRNh_4BA_zrrMLqWz6KquwuD)
 - [Implementing the Sidecar Pattern in a Microservices Based Application](https://blog.bitsrc.io/implementing-the-sidecar-pattern-in-nodejs-2ec3954fe9b6)
 - [Companies](https://workat.tech/problem-solving/practice/companies)
 - [The Trap of Learning: FOMO in Software Engineering](https://medium.com/@hnasr/the-trap-of-learning-2b8de2734bf)
@@ -977,8 +965,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Under the Hood](https://mohitmishra786.github.io/UnderTheHood/)
 - [Pingora Saving Compute 1 Percent At A Time](https://blog.cloudflare.com/pingora-saving-compute-1-percent-at-a-time/)
 - [Reactive Programming in Java](https://senoritadeveloper.medium.com/reactive-programming-in-java-a4219a900c80)
-- [Comparison Of Service Meshes](https://livewyer.io/blog/2024/05/08/comparison-of-service-meshes/)
-- [An Illustrated Proof Of The Cap Theorem](https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/?utm_source=newsletter.programmingdigest.net&utm_medium=newsletter&utm_campaign=practices-of-reliable-software-design)
 - [2024](https://frontendmasters.com/guides/front-end-handbook/2024/)
 - [Join Newsletter Li](https://thorben-janssen.com/join-newsletter-li/)
 - [A Data-Centric Introduction to Computing](https://dcic-world.org/2023-02-21/index.html)
@@ -987,7 +973,6 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [Intro | Putting the "You" in CPU](https://cpu.land/)
 - [If you're a beginner, definitely check this open source guide. I've explained almost everything you need to know. - DEV Community](https://dev.to/anmolbaranwal/if-youre-a-beginner-definitely-check-this-open-source-guide-ive-explained-almost-everything-you-498a)
 - [Y Combinator Startup School](https://www.startupschool.org/)
-- [Claim your Right for Flight Delay Compensation - Flightright](https://www.flightright.com/)
 - [7 things you need in your home lab at any cost](https://www.xda-developers.com/things-you-need-your-home-lab-any-cost/)
 - [Learning Journey](https://learn-db.com/learning-journey/)
 - [Building A Scalable Reliable And Cost Effective Event Scheduler For Asynchronous Jobs 2Ac3](https://dev.to/joojodontoh/building-a-scalable-reliable-and-cost-effective-event-scheduler-for-asynchronous-jobs-2ac3)
