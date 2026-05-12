@@ -1,4 +1,4 @@
-# Dev Knowledge Base
+# The Engineering Compendium
 
 > A curated, community-driven collection of high-quality resources for software engineers — articles, open-source repositories, research papers, books, and courses spanning the full spectrum of modern software engineering.
 
@@ -8,7 +8,7 @@
 ![Articles](https://img.shields.io/badge/articles-644-informational)
 ![Videos](https://img.shields.io/badge/videos-19-red)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tharwaat/the-engineering-compendium/pulls)
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=social)](https://github.com/Tharwaat/the-engineering-compendium)
+[![GitHub stars](https://img.shields.io/github/stars/Tharwaat/the-engineering-compendium?style=social)](https://github.com/Tharwaat/the-engineering-compendium)
 
 ## About
 
