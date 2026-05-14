@@ -161,6 +161,10 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 - [GitHub - binhnguyennus/awesome-scalability: The Patterns of Scalable, Reliable, and Performant Large-Scale Systems  GitHub](https://github.com/binhnguyennus/awesome-scalability)
 - [GitHub - VictoriaMetrics/VictoriaLogs: Fast and easy to use database for logs, which can efficiently handle terabytes of logs  GitHub](https://github.com/VictoriaMetrics/VictoriaLogs/)
 
+### Papers
+
+- [io_uring for High-Performance DBMSs: When and How to Use It](https://arxiv.org/pdf/2512.04859v1)
+
 ### Books & Courses
 
 - [Lets Architect Architecting For Nosql Databases](https://aws.amazon.com/blogs/architecture/lets-architect-architecting-for-nosql-databases/)
@@ -650,8 +654,7 @@ Backend engineers, system designers, SREs, and anyone who believes that learning
 
 ### Papers & Research
 
-- [2409.02668](https://arxiv.org/abs/2409.02668)
-- [2512.04859v1.pdf](https://arxiv.org/pdf/2512.04859v1)
+- [Introduction to Machine Learning](https://arxiv.org/abs/2409.02668)
 
 ### Articles & Tutorials
 
